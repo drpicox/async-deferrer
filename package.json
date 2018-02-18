@@ -1,6 +1,6 @@
 {
   "name": "async-deferrer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "function that returns a promise or resolves it",
   "main": "index.js",
   "scripts": {
