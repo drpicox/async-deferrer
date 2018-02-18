@@ -1,4 +1,4 @@
-asyncDeferrer ![building status](https://api.travis-ci.org/drpicox/ayncs-deferred.svg?branch=master)
+asyncDeferrer ![building status](https://api.travis-ci.org/drpicox/async-deferrer.svg?branch=master)
 =============
 
 Creates a deferrer, which is 
