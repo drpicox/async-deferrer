@@ -21,7 +21,7 @@ npm install async-deferrer
 Use in your code:
 
 ```javascript
-import makeAsyncDeferrer from 'async-deferer'
+import makeAsyncDeferrer from 'async-deferrer'
 
 test("setTimeout logs correctly", async () => {
   const log = []
@@ -47,7 +47,7 @@ makeAsyncDeferrer()
 It creates a function that can be used as a defer.
 
 ```javascript
-import makeAsyncDeferrer from 'async-deferer'
+import makeAsyncDeferrer from 'async-deferrer'
 
 const asyncDeferrer = makeAsyncDeferrer()
 ```
@@ -58,7 +58,7 @@ The resulting function returns always a promise that
 will be satisfied when the function is called with an argument.
 
 ```javascript
-import makeAsyncDeferrer from 'async-deferer'
+import makeAsyncDeferrer from 'async-deferrer'
 
 const asyncDeferrer = makeAsyncDeferrer()
 
@@ -202,7 +202,7 @@ It in fact is the intention of this library,
 to ensure that the execution flow is what we expect.
 
 ```javascript
-import makeAsyncDeferrer from "async-defer"
+import makeAsyncDeferrer from "async-deferrer"
  
 test('synchronize multiple steps in the correct order', async () => {
     const log = []
