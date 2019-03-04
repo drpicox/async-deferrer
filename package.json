@@ -11,12 +11,10 @@
     "url": "git+https://github.com/drpicox/async-deferrer.git"
   },
   "keywords": [
-    "redux",
-    "middleware",
-    "createStore",
-    "ducks-modular-redux",
-    "modules",
-    "applyMiddleware"
+    "promise",
+    "deferrer",
+    "async",
+    "await"
   ],
   "author": "David Rodenas <david.rodenas@gmail.com>",
   "license": "ISC",
@@ -25,12 +23,11 @@
   },
   "homepage": "https://github.com/drpicox/async-deferrer#readme",
   "devDependencies": {
-    "eslint-plugin-prettier": "^2.6.2",
-    "husky": "^1.0.0-rc.15",
-    "jest": "^23.6.0",
-    "lint-staged": "^7.3.0",
-    "prettier": "^1.14.3",
-    "redux": "^4.0.0"
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4"
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
